@@ -1,0 +1,6 @@
+#ignoring ALL files in the DEV folder
+DEV/
+#ignoring ALL files in the ANALYST folder (if present)
+ANALYST/
+#ignoring all files in pycahce folder
+__pycache__/

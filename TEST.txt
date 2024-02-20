@@ -1,0 +1,30 @@
+Queries:
+
+1)Lisa Frank
+2)artificial intelligence
+3)holy moly
+4)trigonometry
+5)apple pie
+6)santa at uci
+7)to be or not to be
+8)cristina lopes
+9)machine learning
+10)ACM
+11)master of software engineering
+12)software engineering
+13)jim herold
+14)web application
+15)pork chops
+16)paid time off
+17)uci registrar
+18)software engineering professor
+19)alcohol
+20)parking structure uci
+
+
+"ACM" was very helpful because it helped us realize we weren't lowercasing our queries
+"Lisa Frank" was the general term I used to get multiple word queries to work at all
+"holy moly" was used to learn that I didn't implement search intersection correctly because "moly" only shares one page with "holy"
+"to be or not to be" was the biggest speed test as it's mostly stop words and repeated words. I had to make sure that we weren't doing duplicate query terms
+"cristina lopes" was giving errors but it's because of a setting with BeautifulSoup that we had to learn
+"master of software engineering" is just a good long phrase that sets a average time estimate of our searches
